@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color:  hsl(204, 43%, 93%);
+    font-family: 'Karla';
+    padding-top: 13rem;
+}
+main{
+    width: 40%
+}
+.board-top{
+    padding: 3rem;
+    background-color: white;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.board-top h1, h2{
+    margin-bottom: 2rem;
+}
+
+.board-top h1{
+    color:hsl(179, 62%, 43%) ;
+}
+
+.board-top h2{
+    color: hsl(71, 73%, 54%);
+}
+
+.board-top p{
+    color: hsl(218, 22%, 67%);
+    letter-spacing: 1px;
+}
+
+.board-bottom{
+    display: flex;
+    width: 100%;
+}
+
+.board-bottom h3{
+    margin-bottom: 1.3rem;
+}
+
+.board-bottom-left{
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 0.5rem;
+    width: 50%;
+}
+
+.board-bottom-left #access{
+    margin-bottom: 3rem;
+}
+
+.sign-up{
+    width: 100%;
+}
+.board-bottom-left a{
+    background-color: hsl(71, 73%, 54%);
+    text-decoration: none;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    border-radius: 0.5rem;
+    color: white;
+    width: 100%;
+}
+
+.board-bottom-right{
+    padding: 3rem;
+    background-color: hsl(179, 43%, 57%);
+    border-bottom-right-radius: 0.5rem;
+    width: 50%;
+}
+.board-bottom-right p{
+    color:hsl(204, 43%, 93%) ;
+    opacity: 0.8;
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+h3{
+    color: white;
+}
+
+.dollar{
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: white;
+    font-weight: 500;
+    align-items: center;
+}
+
+#dollars{
+    align-items: center;
+}
+
+#access{
+    margin-top: 1rem;
+    color: hsl(204, 43%, 93%);
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+
+.price{
+  display: flex;
+  align-items: center;
+}
+#month{
+    color:hsl(204, 43%, 93%) ;
+    opacity: 0.8;
+    font-size: 16px;
+}
+
